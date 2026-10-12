@@ -7,7 +7,7 @@ import androidx.appcompat.app.AlertDialog
 import androidx.fragment.app.Fragment
 
 /** Substitua pela URL pública da sua política de privacidade (obrigatória na Play Store). */
-const val PRIVACY_POLICY_URL = "https://SEU-DOMINIO/culinaria/privacidade"
+const val PRIVACY_POLICY_URL = "https://fiscon421811.github.io/culinaria/privacidade"
 
 /** Decide se uma função de IA pode ser usada e mostra a oferta Premium quando a cota acaba. */
 object AiAccess {
