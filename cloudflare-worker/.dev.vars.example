@@ -1,0 +1,3 @@
+GROQ_API_KEY=cole_sua_chave_aqui
+TURSO_URL=https://SEU-BANCO.aws-us-east-2.turso.io
+TURSO_AUTH_TOKEN=cole_o_NOVO_token_aqui

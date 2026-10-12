@@ -1,0 +1,27 @@
+# Segredos e chaves — NUNCA versionar
+keystore.properties
+*.jks
+*.keystore
+local.properties
+server/.env
+cloudflare-worker/.dev.vars
+python-app/.env
+
+# Build e IDE
+.gradle/
+.idea/
+.kotlin/
+build/
+*.apk
+*.aab
+node_modules/
+.wrangler/
+__pycache__/
+
+# Mais segredos e dados locais
+.env
+**/.env
+python-app/dist/
+python-app/build/
+python-app/snapshot_*.json
+python-app/*.spec

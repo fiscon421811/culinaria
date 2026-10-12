@@ -1,0 +1,74 @@
+AuthenticationError: 401 Incorrect API key provided: sk-proj-********************************************************************************************************************************************************cCkA. You can find your API key at https://platform.openai.com/account/api-keys.
+    at APIError.generate (file:///C:/Users/edson/IdeaProjects/CulinariaTurso/server/node_modules/openai/core/error.mjs:44:20)
+    at OpenAI.makeStatusError (file:///C:/Users/edson/IdeaProjects/CulinariaTurso/server/node_modules/openai/client.mjs:160:32)
+    at OpenAI.makeRequest (file:///C:/Users/edson/IdeaProjects/CulinariaTurso/server/node_modules/openai/client.mjs:328:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async file:///C:/Users/edson/IdeaProjects/CulinariaTurso/server/server.mjs:26:22 {
+  status: 401,
+  headers: Headers {
+    date: 'Thu, 06 Aug 2026 13:26:24 GMT',
+    'content-type': 'text/plain',
+    'content-length': '410',
+    connection: 'keep-alive',
+    'cf-ray': 'a26e5f818908566f-GRU',
+    'cf-cache-status': 'DYNAMIC',
+    server: 'cloudflare',
+    'strict-transport-security': 'max-age=31536000; includeSubDomains; preload',
+    'x-content-type-options': 'nosniff',
+    'access-control-expose-headers': 'X-Request-ID, CF-Ray, CF-Ray',
+    'x-error-json': 'ewogICJlcnJvciI6IHsKICAgICJtZXNzYWdlIjogIkluY29ycmVjdCBBUEkga2V5IHByb3ZpZGVkOiBzay1wcm9qLSoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqY0NrQS4gWW91IGNhbiBmaW5kIHlvdXIgQVBJIGtleSBhdCBodHRwczovL3BsYXRmb3JtLm9wZW5haS5jb20vYWNjb3VudC9hcGkta2V5cy4iLAogICAgInR5cGUiOiAiaW52YWxpZF9yZXF1ZXN0X2Vycm9yIiwKICAgICJjb2RlIjogImludmFsaWRfYXBpX2tleSIsCiAgICAicGFyYW0iOiBudWxsCiAgfSwKICAic3RhdHVzIjogNDAxCn0=',
+    'x-openai-authorization-error': '401',
+    'x-openai-ide-error-code': 'invalid_api_key',
+    'x-openai-internal-caller': 'unknown_through_ide',
+    'x-request-id': 'req_414779a1c97f4c7c80689b72414db7f8',
+    'set-cookie': '__cf_bm=b4M6dTxUprykvWT7WOKoTd9m1.cCDm4ldaQHjQYaYnM-1786022784.2457154-1.0.1.1-WjcJKULTnufksy0UVvF.4DLJMtP_HShX0ozUvZuWuWNyOl6uR8PYy0aMJwDcADGl5SY6MSkRkpKr1Fa.i3yr6GG5qFUEDtpdIGO_tza1ASjeOFe3.BcigHnQetJ66ygg; HttpOnly; SameSite=None; Secure; Path=/; Domain=api.openai.com; Expires=Thu, 06 Aug 2026 13:56:24 GMT',
+    'alt-svc': 'h3=":443"; ma=86400'
+  },
+  requestID: 'req_414779a1c97f4c7c80689b72414db7f8',
+  error: {
+    message: 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************cCkA. You can find your API key at https://platform.openai.com/account/api-keys.',
+    type: 'invalid_request_error',
+    code: 'invalid_api_key',
+    param: null
+  },
+  code: 'invalid_api_key',
+  param: null,
+  type: 'invalid_request_error'
+}
+AuthenticationError: 401 Incorrect API key provided: sk-proj-********************************************************************************************************************************************************cCkA. You can find your API key at https://platform.openai.com/account/api-keys.
+    at APIError.generate (file:///C:/Users/edson/IdeaProjects/CulinariaTurso/server/node_modules/openai/core/error.mjs:44:20)
+    at OpenAI.makeStatusError (file:///C:/Users/edson/IdeaProjects/CulinariaTurso/server/node_modules/openai/client.mjs:160:32)
+    at OpenAI.makeRequest (file:///C:/Users/edson/IdeaProjects/CulinariaTurso/server/node_modules/openai/client.mjs:328:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async file:///C:/Users/edson/IdeaProjects/CulinariaTurso/server/server.mjs:26:22 {
+  status: 401,
+  headers: Headers {
+    date: 'Thu, 06 Aug 2026 13:27:21 GMT',
+    'content-type': 'text/plain',
+    'content-length': '410',
+    connection: 'keep-alive',
+    'cf-ray': 'a26e60e44881a426-GRU',
+    'cf-cache-status': 'DYNAMIC',
+    server: 'cloudflare',
+    'strict-transport-security': 'max-age=31536000; includeSubDomains; preload',
+    'x-content-type-options': 'nosniff',
+    'access-control-expose-headers': 'X-Request-ID, CF-Ray, CF-Ray',
+    'x-error-json': 'ewogICJlcnJvciI6IHsKICAgICJtZXNzYWdlIjogIkluY29ycmVjdCBBUEkga2V5IHByb3ZpZGVkOiBzay1wcm9qLSoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqY0NrQS4gWW91IGNhbiBmaW5kIHlvdXIgQVBJIGtleSBhdCBodHRwczovL3BsYXRmb3JtLm9wZW5haS5jb20vYWNjb3VudC9hcGkta2V5cy4iLAogICAgInR5cGUiOiAiaW52YWxpZF9yZXF1ZXN0X2Vycm9yIiwKICAgICJjb2RlIjogImludmFsaWRfYXBpX2tleSIsCiAgICAicGFyYW0iOiBudWxsCiAgfSwKICAic3RhdHVzIjogNDAxCn0=',
+    'x-openai-authorization-error': '401',
+    'x-openai-ide-error-code': 'invalid_api_key',
+    'x-openai-internal-caller': 'unknown_through_ide',
+    'x-request-id': 'req_825a02a9c84b44578e454710e9e184e8',
+    'set-cookie': '__cf_bm=rZc7dGXrsfv..D90xbZZae2DVGAxqUO9LElL0TMsZkY-1786022841.0025818-1.0.1.1-En9qtCsQBKlUwZIS5VBow3k.cv4VuuFNPapxXijaZPmWKiD8ltI6SxPv0u1YjmF2n7mDdcRAaVFDnMCn3j6uP2cxilBXgdtt15DuYKzL3mpRAOFa0DUZkIgt7rqwf91M; HttpOnly; SameSite=None; Secure; Path=/; Domain=api.openai.com; Expires=Thu, 06 Aug 2026 13:57:21 GMT',
+    'alt-svc': 'h3=":443"; ma=86400'
+  },
+  requestID: 'req_825a02a9c84b44578e454710e9e184e8',
+  error: {
+    message: 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************cCkA. You can find your API key at https://platform.openai.com/account/api-keys.',
+    type: 'invalid_request_error',
+    code: 'invalid_api_key',
+    param: null
+  },
+  code: 'invalid_api_key',
+  param: null,
+  type: 'invalid_request_error'
+}

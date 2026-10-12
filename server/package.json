@@ -1,0 +1,11 @@
+﻿{
+  "name": "culinaria-ai-server",
+  "private": true,
+  "type": "module",
+  "scripts": { "dev": "node --watch server.mjs", "start": "node server.mjs" },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "openai": "^5.12.2"
+  }
+}
